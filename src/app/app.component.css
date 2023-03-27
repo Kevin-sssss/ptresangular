@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el home */
+  .home {
+    padding: 50px;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para el formulario */
+  .form {
+    padding: 50px;
+  }
+  
+  .form h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form button[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  /* Estilos para la página de clientes */
+  .clientes {
+    padding: 50px;
+  }
+  
+  .clientes h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .clientes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .clientes li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  

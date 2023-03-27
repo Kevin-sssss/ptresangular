@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de ejemplo</title>
+</head>
+<body>
+  <h1>Formulario de ejemplo</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre  </th>
+        <th>Cumpleanyos  </th>
+        <th>Correo  </th>
+        <th>Other Selection  </th>
+        <th>Check  </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dato of datos">
+        <td>{{ dato.nombre }}</td>
+        <td>{{ dato.fechaNacimiento }}</td>
+        <td>{{ dato.correo }}</td>
+        <td>{{ dato.otraSeleccion }}</td>
+        <td>{{ dato.checkbox }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+</body>
+</html>
